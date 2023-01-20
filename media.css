@@ -1,0 +1,148 @@
+@media only screen and (max-width: 1024px){
+
+}
+
+@media only screen and (max-width: 992px){
+    .nav{
+        display: none;
+    }
+
+    .language{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+    }
+
+    .burger::before,
+    .burger::after{
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+
+    .burger span{
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+    }
+
+    .burger::before{
+        top: 0;
+    }
+
+    .burger::after{
+        bottom: 0;
+    }
+
+    .title {
+        font-size: 37px;
+    }
+
+    .title-text{
+        font-size: 14px;
+    }
+
+    .item-travels{
+        display: block;
+    }
+
+    .item-travels-img{
+        width: 100%;
+    }
+
+    .item-travels-info{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .cards{
+        display: block;
+    }
+
+    .item-card{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .item-card:last-child{
+        margin-bottom: 0;
+    }
+
+    .card{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .card:last-child{
+        margin-bottom: 0;
+    }
+
+    .footer-info{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .box{
+        width: 50%;
+    }
+
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .search{
+        flex-direction: column;
+        margin-top: 45px;
+    }
+
+    .search-data-person{
+        border-left: 0px;
+        padding-left: 18px;
+    }
+
+    .item-card{
+        width: 70%;
+    }
+
+    .card{
+        width: 70%;
+    }
+
+    .box{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .item-card{
+        width: 80%;
+    }
+
+    .card{
+        width: 80%;
+    }
+
+    .box{
+        width: 90%;
+    }
+
+}
